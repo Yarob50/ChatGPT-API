@@ -1,0 +1,76 @@
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15 27 83);
+    height: 100vh;
+    flex-direction: column;
+}
+
+body {
+    margin: 0px;
+    color: white;
+    direction: rtl;
+}
+
+body,button,input{
+    font-family: 'Cairo', sans-serif;
+}
+
+#main-title {
+    font-size: 100px;
+    margin: 0px;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    height: 200px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#word-input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    padding: 0px 20px;
+}
+
+#submit-btn{
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    margin: 0px 10px;
+    width: 160px;
+    background-color: rgb(35, 104, 252);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#submit-btn:hover{
+    background-color: rgb(11, 67, 188);
+}
+
+#reply-content {
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    height: 400px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
